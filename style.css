@@ -21,18 +21,19 @@ header.startup {
 }
 .join {
   color: white;
-  font-size: 5em;
+  font-size: 2em;
+  text-align: center;
 }
 
 hr {
-  padding: 10em;
+  padding: 1em;
 }
 
 .btn-outline-info {
   border-color: white;
   color: white;
   font-weight: white;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .btn-outline-info:hover {
@@ -41,4 +42,24 @@ hr {
   font-weight: white;
   font-size: 2em;
   background-color: black;
+}
+
+
+@media screen and (min-width: 1120px) {
+  .join {
+    font-size: 5em;
+    text-align: center;
+  }
+
+  hr{
+    padding: 10em;
+  }
+
+  .btn-outline-info {
+    border-color: white;
+    color: white;
+    font-weight: white;
+    font-size: 2em;
+  }
+
 }
